@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'PermanentMarker';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/PermanentMarker-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Quicksand-Medium.ttf") format("truetype");
+}
+
+.red {
+  color: #BF0F30;
+}
+
+$dark: #343a40;
+
+.title {
+  img {
+    height: 1.2em;
+    vertical-align: bottom;
+  }
+  small {
+    font-size: 0.6em;
+    color: lighten($dark, 40%)
+  }
+}
+
+.breadcrumbnav {
+  font-size: 0.8em;
+}
+
+$font-family-headings: 'PermanentMarker', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+h1, h2, h3, h4, h5, h6, .footer {
+  font-family: $font-family-headings;
+}
+
+$font-family-sans-serif: 'Quicksand', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+// $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+// $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+// Bootstrap and its default variables
+@import "./bootstrap/bootstrap.scss";
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/brands.scss";
+@import "./fontawesome/solid.scss";
