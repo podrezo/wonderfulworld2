@@ -1,21 +1,21 @@
 {{ partial "header.html" . }}
 <div class="row mb-4">
-  <div class="col-lg-12">
-    <ul class="list-group list-group-horizontal">
-      <li class="list-group-item"><i class="fas fa-fw fa-map-marker-alt"></i> {{ .Params.Latitude }}, {{ .Params.Longitude }}</li>
-      <li class="list-group-item"><i class="fas fa-fw fa-flag"></i> {{ .Params.Country }}</li>
-      {{with .Params.Details_Link}}
-        <li class="list-group-item"><i class="fas fa-fw fa-link"></i> <a href="{{.}}" target="_blank">More info</a></li>
-      {{end}}
-    </ul>
+  <div class="col-lg-12 text-center">
+    <a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">
+      <img alt="Coordinates at {{ .Params.Latitude }},{{ .Params.Longitude }}" src="https://maps.geoapify.com/v1/staticmap?style=positron&width=600&height=400&center=lonlat:{{ .Params.Longitude }},{{ .Params.Latitude }}&zoom=3.2&marker=lonlat:{{ .Params.Longitude }},{{ .Params.Latitude }};color:%23ff0000;size:medium&apiKey=34963d32e3f9434f9b4a6cf05b8b961c" class="img-thumbnail"/>
+    </a>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-lg-12">
     {{ .Content }}
 
-    <p class="text-right"><small>Submitted by {{ .Params.Author }}</small></p>
+    <p class="text-right"><small>
+      {{with .Params.Author}}Submitted by {{.}}.{{end}}
+      {{with .Params.Details_Link}}More information about this location can be found <a href="{{.}}" target="_blank">here</a>.{{end}}
+    </small></p>
   </div>
 </div>
 
