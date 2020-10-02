@@ -7,10 +7,10 @@
 
 <div class="row mt-2">
   {{ range .Pages }}
-    <div class="col-lg-4">
+    <div class="col-lg-4 mb-4">
       <div class="card">
-        {{ with .Params.Image }}
-          <img src="{{ . }}" class="card-img-top"/>
+        {{ range first 1 (.Resources.ByType "image") }}
+          <img src="{{ .Permalink }}" class="card-img-top"/>
         {{ end }}
         <div class="card-body">
           <h5 class="card-title">{{ .Title }}</h5>
