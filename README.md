@@ -36,5 +36,4 @@ Add images, simply put the files in the same directory as the `_index.md` file y
 ## TODO
 
 * Tags
-* Index page
 * CD pipeline

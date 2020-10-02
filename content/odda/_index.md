@@ -1,6 +1,6 @@
 ---
 title: Odda
-country: NO
+country: 'NO'
 details_link: https://en.wikipedia.org/wiki/Odda
 author: Petro Podrezo
 longitude: 6.537615871518861
