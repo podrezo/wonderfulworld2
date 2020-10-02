@@ -134,6 +134,10 @@ $font-family-base:       $font-family-sans-serif !default;
   font-size: 0.8em;
 }
 
+.card-title a:hover {
+  text-decoration: none;
+}
+
 // Bootstrap and its default variables
 @import "./bootstrap/bootstrap.scss";
 @import "./fontawesome/fontawesome.scss";

@@ -14,7 +14,7 @@
           <a href="{{ $link }}"><img src="{{ .Permalink }}" class="card-img-top"/></a>
         {{ end }}
         <div class="card-body">
-          <h5 class="card-title"><span class="flag flag-32-{{lower .Params.Country}}"></span>&nbsp;{{ .Title }}</h5>
+          <h5 class="card-title"><a href="{{ $link }}"><span class="flag flag-32-{{lower .Params.Country}}"></span>&nbsp;{{ .Title }}</a></h5>
           <p class="card-text">{{ .Content | truncate 200 }}</p>
         </div>
       </div>
