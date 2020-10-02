@@ -6,7 +6,7 @@ Wonderful World is a curated list of awesome sight-seeing places to visit around
 
 This project uses the static website generated called Hugo. [Install Hugo](https://gohugo.io/getting-started/quick-start/) and then clone the project. Simply run `hugo server` from the root directory of the project and then browse over to the URL it outputs to see the website.
 
-## Submitting new locations
+## Contributing: Adding a new location
 
 Create a new directory under `content` and give it a descriptive name, following the same convention as the other directories in there. In this directory, create a new markdown file called `_index.md` and follow this recipe for the file content:
 
