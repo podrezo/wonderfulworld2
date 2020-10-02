@@ -3,7 +3,7 @@
 {{ $cn :=  index .Site.Data.countries $cc "name" }}
 <div class="row">
   <div class="col-lg-7">
-    <p><strong>{{ .Title }}</strong> is located in <span class="flag flag-24-{{lower $cc}}"></span> <a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">{{$cn}}</a></p>
+    <p><strong>{{ .Title }}</strong> is located in <span class="flag flag-24-{{lower $cc}}"></span>&nbsp;<a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">{{$cn}}</a></p>
     {{ .Content }}
 
     <p class="text-right"><small>
