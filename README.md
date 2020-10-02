@@ -37,3 +37,4 @@ Add images, simply put the files in the same directory as the `_index.md` file y
 
 * Tags support
 * Clickable world map of all places
+* Meta tags for sharing and social networking
