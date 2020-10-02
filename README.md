@@ -1,6 +1,6 @@
 # Wonderful World
 
-Wonderful World is a curated list of awesome sight-seeing places to visit around the world.
+Wonderful World is a curated list of awesome sight-seeing places to visit around the world. You can view the live site at https://wonderfulworld.podrezo.com/
 
 ## Running the project locally
 
@@ -35,5 +35,5 @@ Add images, simply put the files in the same directory as the `_index.md` file y
 
 ## TODO
 
-* Tags
-* CD pipeline
+* Tags support
+* Clickable world map of all places
