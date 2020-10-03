@@ -2,7 +2,7 @@
 title: Stelvio Pass
 native_title: Passo dello Stelvio
 country: IT
-details_link: https://www.atlasobscura.com/places/little-lake-manitou
+details_link: https://en.wikipedia.org/wiki/Stelvio_Pass
 author: Petro Podrezo
 longitude: 10.4444522
 latitude: 46.5293741
