@@ -138,6 +138,20 @@ $font-family-base:       $font-family-sans-serif !default;
   text-decoration: none;
 }
 
+.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center; 
+}
+
+.emptyfill {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 // Bootstrap and its default variables
 @import "./bootstrap/bootstrap.scss";
 @import "./fontawesome/fontawesome.scss";

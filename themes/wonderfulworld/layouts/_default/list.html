@@ -11,7 +11,9 @@
     <div class="col-lg-4 mb-4">
       <div class="card">
         {{ range first 1 (.Resources.ByType "image") }}
-          <a href="{{ $link }}"><img src="{{ .Permalink }}" class="card-img-top" loading="lazy"/></a>
+          <div class="card-img-top thumbnail" style="background-image: url({{ .Permalink }});">
+            <a href="{{ $link }}"><img class="emptyfill" src="/empty.png"/></a>
+          </div>
         {{ end }}
         <div class="card-body">
           <h5 class="card-title"><a href="{{ $link }}"><span class="flag flag-32-{{lower .Params.Country}}"></span>&nbsp;{{ .Title }}</a></h5>
