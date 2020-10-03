@@ -11,5 +11,6 @@ tags:
   - Mountains
   - Resort
   - Man-Made
+  - Luxury
 ---
 On 243 hectares of lush tropical hillside, this high-end resort is set on Anse Chastanet Beach, overlooking the Caribbean Sea, and is 4 km from St. Lucia Botanical Gardens.

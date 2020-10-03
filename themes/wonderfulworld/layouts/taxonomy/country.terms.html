@@ -1,0 +1,30 @@
+{{ partial "header.html" . }}
+<div class="row mb-5">
+  <div class="col-lg-12">
+    {{ .Content }}
+  </div>
+</div>
+
+<div class="row mt-2">
+  {{ range .Pages }}
+    {{ $cc := .Title }}
+    {{ $cn :=  index .Site.Data.countries $cc "name" }}
+    {{ $link := .Permalink }}
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        {{ range first 1 .Data.Pages }}
+        {{ range first 1 (.Resources.ByType "image") }}
+          <div class="card-img-top thumbnail" style="background-image: url({{ .Permalink }});">
+            <a href="{{ $link }}"><img class="emptyfill" src="/empty.png"/></a>
+          </div>
+        {{ end }}
+        {{ end }}
+        <div class="card-body">
+          <h5 class="card-title"><a href="{{ $link }}"><span class="flag flag-32-{{lower $cc}}"></span>&nbsp;{{ $cn }}</a></h5>
+          <p class="card-text">There are {{ .Data.Pages | len }} entries for {{ $cn }}.</p>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</div>
+{{ partial "footer.html" . }}
