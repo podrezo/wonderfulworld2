@@ -3,7 +3,11 @@
 {{ $cn :=  index .Site.Data.countries $cc "name" }}
 <div class="row">
   <div class="col-lg-7">
-    <p><strong>{{ .Title }}</strong> is located in <span class="flag flag-24-{{lower $cc}}"></span>&nbsp;<a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">{{$cn}}</a></p>
+    {{ if isset .Params "native_title" }}
+      <p><strong>{{ .Params.Native_Title }} ({{ .Title }})</strong> is located in <span class="flag flag-24-{{lower $cc}}"></span>&nbsp;<a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">{{$cn}}</a></p>
+    {{ else }}
+      <p><strong>{{ .Title }}</strong> is located in <span class="flag flag-24-{{lower $cc}}"></span>&nbsp;<a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">{{$cn}}</a></p>
+    {{ end }}
     {{ .Content }}
 
     <p class="text-right"><small>
