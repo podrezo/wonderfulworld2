@@ -3,5 +3,5 @@ languageCode: "en-us"
 title: "Wonderful World"
 theme: "wonderfulworld"
 taxonomies:
-  country: country
-  tag: tags
+  country: Countries
+  tag: Tags
