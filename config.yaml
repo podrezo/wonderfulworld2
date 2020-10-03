@@ -4,3 +4,4 @@ title: "Wonderful World"
 theme: "wonderfulworld"
 taxonomies:
   country: country
+  tag: tags
