@@ -4,9 +4,11 @@
     {{ .Content }}
   </div>
 </div>
+{{ $pages := .Paginate .Pages}}
+{{ partial "pagination.html" . }}
 
 <div class="row mt-2">
-  {{ range .Pages }}
+  {{ range ($pages).Pages }}
     {{ $link := .Permalink }}
     <div class="col-lg-4 mb-4">
       <div class="card">
@@ -23,4 +25,7 @@
     </div>
   {{ end }}
 </div>
+
+{{ partial "pagination.html" . }}
+
 {{ partial "footer.html" . }}

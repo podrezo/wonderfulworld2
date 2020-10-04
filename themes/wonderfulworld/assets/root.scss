@@ -152,6 +152,10 @@ $font-family-base:       $font-family-sans-serif !default;
   left: 0;
 }
 
+.pagination {
+  justify-content: center;
+}
+
 // Bootstrap and its default variables
 @import "./bootstrap/bootstrap.scss";
 @import "./fontawesome/fontawesome.scss";

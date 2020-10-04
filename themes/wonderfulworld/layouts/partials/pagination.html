@@ -1,0 +1,35 @@
+<!-- https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/pagination.html -->
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 -}}
+<div class="row">
+  <div class="col-lg-12">
+    <p class="text-center">Viewing entries {{ add (mul (sub $pag.PageNumber 1) $pag.PageSize) 1 }} - {{ add (mul (sub $pag.PageNumber 1) $pag.PageSize) $pag.NumberOfElements }} out of {{ $pag.TotalNumberOfElements }} total</p>
+    <ul class="pagination">
+      {{ with $pag.First -}}
+      <li class="page-item">
+        <a href="{{ .URL }}" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      {{ end -}}
+      <li class="page-item{{ if not $pag.HasPrev }} disabled{{ end }}">
+        <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      {{- $ellipsed := false -}}
+      {{- $shouldEllipse := false -}}
+      {{- range $pag.Pagers -}}
+      
+      <li class="page-item{{ if eq . $pag }} active{{ end }}">
+        <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+      </li>
+      {{- end }}
+      <li class="page-item{{ if not $pag.HasNext }} disabled{{ end }}">
+        <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      {{- with $pag.Last }}
+      <li class="page-item">
+        <a href="{{ .URL }}" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
