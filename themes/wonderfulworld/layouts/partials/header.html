@@ -35,11 +35,15 @@
         <h1 class="title"><a href="/"><img src="/earth-globe.svg" type="image/svg+xml"/> {{ .Site.Title }}</a> <small>{{ .Page.Title }}</small></h1>
         <hr/>
         <ul class="nav">
-          {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
-            </li>
-          {{ end }}
+          <li class="nav-item">
+            <a class="nav-link" href="/">All Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/country/">By Country</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tags/">By Tag</a>
+          </li>
         </ul>
       </div>
     </div>
