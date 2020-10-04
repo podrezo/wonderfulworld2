@@ -28,7 +28,7 @@ Description here. *Markdown is allowed.*
 
 ```
 
-Optional fields: `author`, `details_link`. The details link is ideally something useful to travellers like an article about the place from [WikiVoyage](https://www.wikivoyage.org/). For an example of a filled-out file, check the files already inside the `content` directory. It is critical that the country code is present in the `data/countries.yaml` file in order to properly render country name and flag. To find the Alpha-2 code you can consult [this table from Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements).
+Optional fields: `author`, `details_link`. The details link is ideally something useful to travellers like an article about the place from [WikiVoyage](https://www.wikivoyage.org/). For an example of a filled-out file, check the files already inside the `content` directory. It is critical that the country code is present in the `data/countries.yaml` file in order to properly render country name and flag. To find the Alpha-2 code you can consult [this table from Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements) or simply check that same `data/countries.yaml` file to search the code by name.
 
 Add images, simply put the files in the same directory as the `_index.md` file you created. Images **must be under 1MB** in file size. The thumbnail image will be the alphabetically first image file in the directory.
 
