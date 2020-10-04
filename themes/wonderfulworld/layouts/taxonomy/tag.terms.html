@@ -5,12 +5,14 @@
   </div>
 </div>
 
+{{ $type := .Type }}
 <div class="row mt-2">
-  {{ range .Pages }}
-    {{ $link := .Permalink }}
-    <div class="col-lg-4 mb-4">
+  {{ range .Data.Terms.ByCount }}
+    {{ $link := .Name | urlize }}
+    {{ $term := .Term }}
+    <div class="col-lg-4 mb-3">
       <div class="card">
-        {{ range first 1 .Data.Pages }}
+        {{ range first 1 .Pages }}
         {{ range first 1 (.Resources.ByType "image") }}
           <div class="card-img-top thumbnail" style="background-image: url({{ .Permalink }});">
             <a href="{{ $link }}"><img class="emptyfill" src="/empty.png"/></a>
@@ -18,8 +20,10 @@
         {{ end }}
         {{ end }}
         <div class="card-body">
+          {{ with $.Site.GetPage "taxonomy" (printf "%s/%s" $type $term) }}
           <h5 class="card-title"><a href="{{ $link }}">{{ .Title }}</a></h5>
-          <p class="card-text">There are {{ .Data.Pages | len }} entries for the tag "{{ .Title }}".</p>
+          {{end}}
+          <p class="card-text">{{ .Pages | len }} locations</p>
         </div>
       </div>
     </div>
