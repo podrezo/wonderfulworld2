@@ -5,7 +5,7 @@ details_link: https://www.google.com/travel/things-to-do?g2lb=2502548%2C4258168%
 author: Petro Podrezo
 longitude: -75.764203
 latitude: -14.087497
-layout: single
+layout: location
 tags:
   - Man-Made
   - Desert

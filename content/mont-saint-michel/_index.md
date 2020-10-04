@@ -5,7 +5,7 @@ details_link: http://en.normandie-tourisme.fr/discover/normandy-must-sees/the-10
 author: Petro
 longitude: -1.5111144999999624
 latitude: 48.63601659999999
-layout: single
+layout: location
 tags:
   - Man-Made
   - Nature

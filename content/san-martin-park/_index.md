@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/General_San_Mart%C3%ADn_Park
 author: Petro Podrezo
 longitude: -68.870656
 latitude: -32.889339
-layout: single
+layout: location
 tags:
   - Man-Made
   - Trees

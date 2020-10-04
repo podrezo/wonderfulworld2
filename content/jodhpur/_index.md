@@ -5,7 +5,7 @@ details_link: https://en.wikivoyage.org/wiki/Jodhpur
 author: Petro Podrezo
 longitude: 73.0153805
 latitude: 26.2972186
-layout: single
+layout: location
 tags:
   - Man-Made
   - Asian

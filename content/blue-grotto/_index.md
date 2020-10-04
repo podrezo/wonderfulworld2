@@ -5,7 +5,7 @@ details_link: https://www.bluecavecroatia.eu/
 author: Petro Podrezo
 longitude: 16.021963
 latitude: 42.980213
-layout: single
+layout: location
 tags:
   - Nature
   - Cave

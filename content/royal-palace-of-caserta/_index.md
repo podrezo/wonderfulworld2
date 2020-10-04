@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Palace_of_Caserta
 author: JL
 longitude: 14.3269
 latitude: 41.0732
-layout: single
+layout: location
 tags:
   - Man-Made
   - Castle

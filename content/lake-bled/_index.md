@@ -5,7 +5,7 @@ details_link: http://www.bled.si/en/what-to-see/cultural-sights/churches/the-chu
 author: Petro Podrezo
 longitude: 14.089466781817988
 latitude: 46.36153454854645
-layout: single
+layout: location
 tags:
   - Nature
   - Man-Made

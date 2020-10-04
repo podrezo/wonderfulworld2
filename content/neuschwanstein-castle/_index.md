@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Neuschwanstein_Castle
 author: Petro Podrezo
 longitude: 10.747611715848567
 latitude: 47.55757759935595
-layout: single
+layout: location
 tags:
   - Man-Made
   - Castle

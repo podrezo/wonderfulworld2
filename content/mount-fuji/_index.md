@@ -6,7 +6,7 @@ details_link: https://www.nationalgeographic.org/media/mount-fuji/
 author: Petro Podrezo
 longitude: 138.731111
 latitude: 35.358056
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

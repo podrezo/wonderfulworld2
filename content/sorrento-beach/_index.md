@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Sorrento,_Victoria
 author: Petro Podrezo
 longitude: 115.746029
 latitude: -31.831609
-layout: single
+layout: location
 tags:
   - Nature
   - Beach

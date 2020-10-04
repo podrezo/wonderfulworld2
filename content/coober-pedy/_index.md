@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Coober_Pedy
 author: Petro
 longitude: 134.75325299999997
 latitude: -29.0138504
-layout: single
+layout: location
 tags:
   - Man-Made
   - Rock

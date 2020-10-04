@@ -5,7 +5,7 @@ details_link: http://www.flashpackerconnect.com/
 author: Petro Podrezo
 longitude: -71.2418748
 latitude: -13.7914446
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

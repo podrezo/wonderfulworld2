@@ -5,7 +5,7 @@ details_link: https://www.myswitzerland.com/en-ca/destinations/lungern-schoenbue
 author: Petro Podrezo
 longitude: 8.159704
 latitude: 46.7858188
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

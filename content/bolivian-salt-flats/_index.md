@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Salar_de_Uyuni
 author: Petro Podrezo
 longitude: -67.872196
 latitude: -20.2086642
-layout: single
+layout: location
 tags:
   - Nature
   - Salt Flats

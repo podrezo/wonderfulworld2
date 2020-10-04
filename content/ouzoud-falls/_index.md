@@ -6,7 +6,7 @@ details_link: https://www.tripadvisor.ca/Attraction_Review-g608442-d555781-Revie
 author: Petro Podrezo
 longitude: -6.722325
 latitude: 32.0161205
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

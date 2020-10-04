@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Kuramathi
 author: Petro Podrezo
 longitude: 72.98
 latitude: 4.258611
-layout: single
+layout: location
 tags:
   - Nature
   - Beach

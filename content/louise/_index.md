@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Lake_Louise,_Alberta
 author: Petro Podrezo
 longitude: -116.22726
 latitude: 51.412613
-layout: single
+layout: location
 tags:
   - Nature
   - Lake

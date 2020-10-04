@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/S%C3%B8rv%C3%A1gsvatn
 author: Petro Podrezo
 longitude: -7.233333
 latitude: 62.05
-layout: single
+layout: location
 tags:
   - Nature
   - Nordic

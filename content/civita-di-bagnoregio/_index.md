@@ -5,7 +5,7 @@ details_link: https://www.ricksteves.com/watch-read-listen/read/articles/italys-
 author: Petro Podrezo
 longitude: 12.11351
 latitude: 42.6279207
-layout: single
+layout: location
 tags:
   - Man-Made
   - Town

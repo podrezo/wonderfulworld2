@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/White_Cliffs_of_Dover
 author: Petro Podrezo
 longitude: 1.351794345762539
 latitude: 51.135651637479754
-layout: single
+layout: location
 tags:
   - Nature
   - Cliffs

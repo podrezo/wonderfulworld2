@@ -5,7 +5,7 @@ details_link: http://www.huffingtonpost.com/2014/04/18/cherry-blossoms-bonn_n_51
 author: Petro Podrezo
 longitude: 7.0456728
 latitude: 50.7036647
-layout: single
+layout: location
 tags:
   - Nature
   - Man-Made

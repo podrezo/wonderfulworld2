@@ -5,7 +5,7 @@ details_link: https://www.atlasobscura.com/places/little-lake-manitou
 author: Petro Podrezo
 longitude: -105.4430
 latitude: 51.7197
-layout: single
+layout: location
 tags:
   - Nature
   - Beach

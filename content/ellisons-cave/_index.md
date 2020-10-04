@@ -5,7 +5,7 @@ details_link: https://roadtrippers.com/us/lafayette-ga/nature/ellisons-cave?lat=
 author: Petro Podrezo
 longitude: -85.3412724286514
 latitude: 34.708150980839875
-layout: single
+layout: location
 tags:
   - Nature
   - Cave

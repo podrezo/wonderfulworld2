@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Cinque_Terre
 author: Jennifer Luo
 longitude: 9.712390700000014
 latitude: 44.12810899999999
-layout: single
+layout: location
 tags:
   - Nature
   - Man-Made

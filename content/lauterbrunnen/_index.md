@@ -5,7 +5,7 @@ details_link: https://en.wikivoyage.org/wiki/Lauterbrunnen
 author: Petro Podrezo
 longitude: 7.8352793
 latitude: 46.5574809
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/M%C3%B9_Cang_Ch%E1%BA%A3i_District
 author: Petro Podrezo
 longitude: 104.076383
 latitude: 21.8460521
-layout: single
+layout: location
 tags:
   - Nature
   - Rice Paddy

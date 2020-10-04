@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Kuang_Si_Falls
 author: Petro Podrezo
 longitude: 101.9904027
 latitude: 19.7488845
-layout: single
+layout: location
 tags:
   - Nature
   - Waterfall

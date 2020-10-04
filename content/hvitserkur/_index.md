@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Hv%C3%ADtserkur
 author: Petro Podrezo
 longitude: -20.636611054699433
 latitude: 65.60616904697044
-layout: single
+layout: location
 tags:
   - Nature
   - Rock

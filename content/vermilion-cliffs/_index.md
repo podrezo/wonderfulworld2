@@ -5,7 +5,7 @@ details_link: https://www.blm.gov/visit/vermilion-cliffs
 author: Petro Podrezo
 longitude: -112.0462167
 latitude: 36.7331543
-layout: single
+layout: location
 tags:
   - Desert
 ---

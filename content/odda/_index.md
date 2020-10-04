@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Odda
 author: Petro Podrezo
 longitude: 6.537615871518861
 latitude: 60.068148328445375
-layout: single
+layout: location
 tags:
   - Man-Made
   - Town

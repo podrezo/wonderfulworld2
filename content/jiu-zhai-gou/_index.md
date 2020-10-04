@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Jiuzhaigou
 author: JL
 longitude: 103.9
 latitude: 33.2
-layout: single
+layout: location
 tags:
   - UNESCO World Heritage Site
   - Nature

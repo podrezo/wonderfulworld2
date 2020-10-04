@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Appian_Way
 author: Jennifer Luo
 longitude: 12.538629700000001
 latitude: 41.8360492
-layout: single
+layout: location
 tags:
   - Man-Made
   - Trees

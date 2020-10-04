@@ -5,7 +5,7 @@ details_link: https://www.jademountain.com/
 author: Petro Podrezo
 longitude: -61.0761636
 latitude: 13.8635512
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

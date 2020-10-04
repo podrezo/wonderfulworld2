@@ -5,7 +5,7 @@ details_link: https://ginniespringsoutdoors.com/
 author: Petro Podrezo
 longitude: -82.696712
 latitude: 29.8353282
-layout: single
+layout: location
 tags:
   - Nature
   - Swimming

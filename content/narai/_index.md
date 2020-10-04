@@ -6,7 +6,7 @@ details_link: https://www.japan.travel/en/spot/1366/
 author: Petro Podrezo
 longitude: 137.7568346
 latitude: 35.9267827
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

@@ -5,7 +5,7 @@ details_link: http://www.niagarafallstourism.com/
 author: Petro Podrezo
 longitude: -79.07635158425911
 latitude: 43.08282009714251
-layout: single
+layout: location
 tags:
   - Nature
   - Waterfall

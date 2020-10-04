@@ -5,7 +5,7 @@ details_link: https://www.tripadvisor.ca/ShowUserReviews-g1219346-d4765205-r2294
 author: Petro Podrezo
 longitude: -8.4281012
 latitude: 37.087411
-layout: single
+layout: location
 tags:
   - Nature
   - Cave

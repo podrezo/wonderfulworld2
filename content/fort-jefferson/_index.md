@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Fort_Jefferson_(Florida)
 author: Petro Podrezo
 longitude: -82.8751887
 latitude: 24.6280049
-layout: single
+layout: location
 tags:
   - Man-Made
 ---

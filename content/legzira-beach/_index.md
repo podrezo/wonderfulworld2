@@ -5,7 +5,7 @@ details_link: http://thehostelgirl.com/the-best-e5-agadir-day-trip-how-to-get-to
 author: Petro Podrezo
 longitude: -10.122023799999965
 latitude: 29.439962
-layout: single
+layout: location
 tags:
   - Nature
   - Rock

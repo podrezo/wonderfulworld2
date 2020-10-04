@@ -5,7 +5,7 @@ details_link: https://inzumi.com/en/travel/point-of-interest/d_id/Lake-Garda/c_i
 author: Petro
 longitude: 10.789857600000005
 latitude: 45.8101279
-layout: single
+layout: location
 tags:
   - Nature
   - Man-Made

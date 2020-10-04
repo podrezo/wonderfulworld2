@@ -5,7 +5,7 @@ details_link: https://www.tripadvisor.ca/Attraction_Review-g189440-d3422051-Revi
 author: Petro Podrezo
 longitude: 27.1565794
 latitude: 35.6028619
-layout: single
+layout: location
 tags:
   - Beach
 ---

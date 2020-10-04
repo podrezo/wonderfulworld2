@@ -6,7 +6,7 @@ details_link: http://www.szechenyifurdo.hu/
 author: Petro Podrezo
 longitude: 19.0801904
 latitude: 47.5186604
-layout: single
+layout: location
 tags:
   - Man-Made
   - Spa

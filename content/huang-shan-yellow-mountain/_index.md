@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Huangshan
 author: JL
 longitude: 118.166667
 latitude: 30.125
-layout: single
+layout: location
 tags:
   - UNESCO World Heritage Site
   - Nature

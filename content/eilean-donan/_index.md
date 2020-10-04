@@ -5,7 +5,7 @@ details_link: http://www.eileandonancastle.com/
 author: Petro Podrezo
 longitude: -5.512667908574145
 latitude: 57.27276950701145
-layout: single
+layout: location
 tags:
   - Nature
   - Man-Made

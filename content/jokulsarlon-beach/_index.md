@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/J%C3%B6kuls%C3%A1rl%C3%B3n
 author: Petro Podrezo
 longitude: -16.18443338367644
 latitude: 64.04302763153433
-layout: single
+layout: location
 tags:
   - Nature
   - Beach

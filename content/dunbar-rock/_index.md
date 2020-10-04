@@ -5,7 +5,7 @@ details_link: http://dunbarrock.com/
 author: Petro Podrezo
 longitude: -85.87494368466727
 latitude: 16.450676133470846
-layout: single
+layout: location
 tags:
   - Man-Made
   - Resort

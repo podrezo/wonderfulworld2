@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands
 author: Petro Podrezo
 longitude: 69.34855700000003
 latitude: -49.280366
-layout: single
+layout: location
 tags:
   - Nature
   - Remote

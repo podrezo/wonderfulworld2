@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Baatara_gorge_waterfall
 author: Petro Podrezo
 longitude: 35.868178
 latitude: 34.1734377
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

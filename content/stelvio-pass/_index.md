@@ -6,7 +6,7 @@ details_link: https://en.wikipedia.org/wiki/Stelvio_Pass
 author: Petro Podrezo
 longitude: 10.4444522
 latitude: 46.5293741
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

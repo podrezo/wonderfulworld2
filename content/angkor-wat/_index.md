@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Angkor_Wat
 author: Jennifer Luo
 longitude: 103.86698569999999
 latitude: 13.4124693
-layout: single
+layout: location
 tags:
   - Man-Made
   - Asian

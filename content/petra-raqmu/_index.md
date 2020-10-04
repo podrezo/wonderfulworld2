@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Petra
 author: Jennifer Luo
 longitude: 35.4443622
 latitude: 30.3284544
-layout: single
+layout: location
 tags:
   - Man-Made
   - Mountains

@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Redwood_National_and_State_Parks
 author: Petro Podrezo
 longitude: -124.0259093
 latitude: 41.2187175
-layout: single
+layout: location
 tags:
   - Nature
   - Park

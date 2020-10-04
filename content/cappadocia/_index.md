@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Cappadocia
 author: Sarene
 longitude: 34.842431600000054
 latitude: 38.645974
-layout: single
+layout: location
 tags:
   - Nature
   - Rock

@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Cocora_valley
 author: Petro Podrezo
 longitude: -76.033333
 latitude: 4.916667
-layout: single
+layout: location
 tags:
   - Nature
   - Flora

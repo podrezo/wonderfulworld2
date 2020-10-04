@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+{{ $cc := .Params.Country }}
+{{ $cn :=  index .Site.Data.countries $cc "name" }}
+<div class="row">
+  <div class="col-lg-7">
+    {{ if isset .Params "native_title" }}
+      <p><strong>{{ .Params.Native_Title }} ({{ .Title }})</strong> is located in <span class="flag flag-24-{{lower $cc}}"></span>&nbsp;<a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">{{$cn}}</a></p>
+    {{ else }}
+      <p><strong>{{ .Title }}</strong> is located in <span class="flag flag-24-{{lower $cc}}"></span>&nbsp;<a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">{{$cn}}</a></p>
+    {{ end }}
+    {{ .Content }}
+
+    <p class="text-right"><small>
+      {{with .Params.Author}}Submitted by {{.}}.{{end}}
+      {{with .Params.Details_Link}}More information about this location can be found <a href="{{.}}" target="_blank">here</a>.{{end}}
+    </small></p>
+  </div>
+  <div class="col-lg-5">
+    <!-- To adjust this map try this tool https://apidocs.geoapify.com/playground/static-maps -->
+    <a href="http://www.google.com/maps/place/{{ .Params.Latitude }},{{ .Params.Longitude }}" target="_blank">
+      <img alt="Coordinates at {{ .Params.Latitude }},{{ .Params.Longitude }}" src="https://maps.geoapify.com/v1/staticmap?style=positron&width=700&height=400&center=lonlat:{{ .Params.Longitude }},{{ .Params.Latitude }}&zoom=3.2&marker=lonlat:{{ .Params.Longitude }},{{ .Params.Latitude }};color:%23ff0000;size:medium&apiKey=34963d32e3f9434f9b4a6cf05b8b961c" class="img-thumbnail mb-2"/>
+    </a>
+    {{ range .Resources.ByType "image" }}
+      <a href="{{ .Name }}"><img src="{{ .Name }}" class="img-thumbnail mb-2"/></a>
+    {{ end }}
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

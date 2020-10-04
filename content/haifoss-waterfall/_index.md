@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/H%C3%A1ifoss
 author: Petro Podrezo
 longitude: -19.688088978180954
 latitude: 64.20793347248215
-layout: single
+layout: location
 tags:
   - Nature
   - Waterfall

@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Durban_Island
 author: Petro Podrezo
 longitude: -62.25468301133557
 latitude: 67.0898098265577
-layout: single
+layout: location
 tags:
   - Nature
   - Island

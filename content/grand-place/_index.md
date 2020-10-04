@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Grand_Place
 author: Jennifer Luo
 longitude: 4.352413800000022
 latitude: 50.8467316
-layout: single
+layout: location
 tags:
   - Man-Made
   - City

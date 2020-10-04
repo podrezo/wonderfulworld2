@@ -5,7 +5,7 @@ details_link: http://www.japan-guide.com/e/e4103.html
 author: Petro Podrezo
 longitude: 135.8433773026126
 latitude: 34.68540137581203
-layout: single
+layout: location
 tags:
   - Asian
   - Animals

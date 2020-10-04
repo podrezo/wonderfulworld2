@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Palace_of_Versailles
 author: JL
 longitude: 2.123162
 latitude: 48.804404
-layout: single
+layout: location
 tags:
   - Man-Made
   - Castle

@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng
 author: Petro Podrezo
 longitude: 106.29034801534017
 latitude: 17.449860005592164
-layout: single
+layout: location
 tags:
   - Nature
   - Cave

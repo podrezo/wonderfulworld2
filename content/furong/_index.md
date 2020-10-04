@@ -6,7 +6,7 @@ details_link: https://rachelmeetschina.com/2019/09/10/furong-ancient-town-the-ma
 author: Petro Podrezo
 longitude: 109.974459
 latitude: 28.767369
-layout: single
+layout: location
 tags:
   - Waterfall
   - Man-Made

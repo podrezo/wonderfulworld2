@@ -5,7 +5,7 @@ details_link: https://en.wikivoyage.org/wiki/Musandam_Peninsula
 author: Carl H
 longitude: 56.2460949
 latitude: 26.1986144
-layout: single
+layout: location
 tags:
   - Nature
   - Beach

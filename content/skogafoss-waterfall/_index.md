@@ -5,7 +5,7 @@ details_link: https://en.wikipedia.org/wiki/Sk%C3%B3gafoss
 author: Petro Podrezo
 longitude: -19.520390248374497
 latitude: 63.532104046763
-layout: single
+layout: location
 tags:
   - Nature
   - Waterfall

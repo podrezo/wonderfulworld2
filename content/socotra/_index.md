@@ -5,7 +5,7 @@ details_link: https://www.tripadvisor.ca/Attraction_Review-g298087-d574818-Revie
 author: Petro Podrezo
 longitude: 53.6396579
 latitude: 12.5077597
-layout: single
+layout: location
 tags:
   - Nature
   - Flora

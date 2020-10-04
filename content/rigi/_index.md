@@ -5,7 +5,7 @@ details_link: https://www.rigi.ch/en
 author: Petro Podrezo
 longitude: 8.4851606
 latitude: 47.055985
-layout: single
+layout: location
 tags:
   - Nature
   - Mountains

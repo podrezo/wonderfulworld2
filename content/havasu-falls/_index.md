@@ -5,7 +5,7 @@ details_link: https://www.nps.gov/grca/planyourvisit/havasupai.htm
 author: Petro Podrezo
 longitude: -112.6979449
 latitude: 36.2552091
-layout: single
+layout: location
 tags:
   - Nature
   - Swimming

@@ -18,7 +18,7 @@ details_link: SOME_LINK_FOR_MORE_INFO
 author: AUTHOR_NAME
 longitude: FLOATING_POINT_LONGITUDE
 latitude: FLOATING_POINT_LATITUDE
-layout: single
+layout: location
 tags:
   - Tag 1
   - Tag 2

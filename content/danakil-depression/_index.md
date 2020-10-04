@@ -5,7 +5,7 @@ details_link: https://en.wikivoyage.org/wiki/Danakil_Depression
 author: Mike Spendlove
 longitude: 40.300394299999994
 latitude: 14.2418078
-layout: single
+layout: location
 tags:
   - Nature
   - Rock
