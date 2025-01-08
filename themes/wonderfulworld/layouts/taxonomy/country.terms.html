@@ -11,12 +11,14 @@
   {{/* Populate the slice with code and name pairs */}}
   {{ range .Data.Terms.Alphabetical }}
     {{ $cc := .Name | upper }}
-    {{ $cn := index $.Site.Data.countries $cc "name" }}
-    {{ $countries = $countries | append (dict "code" $cc "name" $cn "pages" .Pages) }}
+    {{ if index $.Site.Data.countries $cc }}
+      {{ $cn := index $.Site.Data.countries $cc "name" }}
+      {{ $countries = $countries | append (dict "code" $cc "name" $cn "pages" .Pages) }}
+    {{ end }}
   {{ end }}
 
   {{/* Sort the slice by country name */}}
-  {{ $sortedCountries := sort $countries "name" }}
+  {{ $sortedCountries := sort $countries "name" "asc" }}
 
   {{/* Iterate over the sorted slice */}}
   {{ range $sortedCountries }}
@@ -25,16 +27,24 @@
     {{ $link := lower $cc | urlize }}
     <div class="col-lg-4 mb-3">
       <div class="card">
-        {{ range first 1 .pages }}
-        {{ range first 1 (.Resources.ByType "image") }}
-          <div class="card-img-top thumbnail" style="background-image: url({{ .Permalink }});">
-            <a href="{{ $link }}"><img class="emptyfill" src="/empty.png"/></a>
-          </div>
-        {{ end }}
+        {{ if .pages }}
+          {{ range first 1 .pages }}
+            {{ with .Resources.ByType "image" }}
+              {{ range first 1 . }}
+                <div class="card-img-top thumbnail" style="background-image: url({{ .Permalink }});">
+                  <a href="{{ $link }}"><img class="emptyfill" src="/empty.png" alt="{{ $cn }}"/></a>
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
         {{ end }}
         <div class="card-body">
-          <h5 class="card-title"><a href="{{ $link }}"><span class="flag flag-32-{{lower $cc}}"></span>&nbsp;{{ $cn }}</a></h5>
-          <p class="card-text">{{ .pages | len }} locations</p>
+          <h5 class="card-title">
+            <a href="{{ $link }}">
+              <span class="flag flag-32-{{lower $cc}}"></span>&nbsp;{{ $cn }}
+            </a>
+          </h5>
+          <p class="card-text">{{ len .pages }} locations</p>
         </div>
       </div>
     </div>
