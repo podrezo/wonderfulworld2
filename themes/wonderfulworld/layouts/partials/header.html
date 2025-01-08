@@ -11,7 +11,7 @@
 
   <link rel="icon" type="image/svg+xml" href="/earth-globe.svg">
   <link rel="alternate icon" ype="image/png" href="/earth-globe.png">
-  {{ $style := resources.Get "root.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  {{ $style := resources.Get "root.scss" | css.Sass | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
 </head>
