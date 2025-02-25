@@ -11,4 +11,4 @@ tags:
   - Nature
   - Mountains
 ---
-This famous paved mountain pass used by drivers & cyclists features dozens of hairpin turns.
+This famous paved mountain pass used by drivers & cyclists features dozens of hairpin turns. This is a fantastic road to drive on two wheels 🏍️
