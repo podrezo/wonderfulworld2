@@ -24,9 +24,9 @@
         <h1 class="title">
           <a href="/"><img src="/earth-globe.svg" type="image/svg+xml"/> {{ .Site.Title }}</a>
           <small>
-            {{ if and (eq .Type "country") .Data.Term }}
+            {{ if and (eq .Type "country") (eq .Kind "term") }}
               {{ $countryTerm := .Data.Term }}
-              {{ $countryTerm = replace $countryTerm "country/" "" }}
+              {{ $countryTerm = replace $countryTerm "Country/" "" }}
               {{ $countryCode := $countryTerm | upper }}
               <span class="flag flag-32-{{lower $countryCode}}"></span>&nbsp;{{ index .Site.Data.countries $countryCode "name" }}
             {{ else }}
