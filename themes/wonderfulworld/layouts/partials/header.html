@@ -21,7 +21,19 @@
   <div class="container mt-5">
     <div class="row mb-4">
       <div class="col-lg-12">
-        <h1 class="title"><a href="/"><img src="/earth-globe.svg" type="image/svg+xml"/> {{ .Site.Title }}</a> <small>{{ .Page.Title }}</small></h1>
+        <h1 class="title">
+          <a href="/"><img src="/earth-globe.svg" type="image/svg+xml"/> {{ .Site.Title }}</a>
+          <small>
+            {{ if and (eq .Type "country") .Data.Term }}
+              {{ $countryTerm := .Data.Term }}
+              {{ $countryTerm = replace $countryTerm "country/" "" }}
+              {{ $countryCode := $countryTerm | upper }}
+              <span class="flag flag-32-{{lower $countryCode}}"></span>&nbsp;{{ index .Site.Data.countries $countryCode "name" }}
+            {{ else }}
+              {{ .Page.Title }}
+            {{ end }}
+          </small>
+        </h1>
         <hr/>
         <ul class="nav">
           <li class="nav-item">
