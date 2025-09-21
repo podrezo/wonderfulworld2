@@ -10,7 +10,14 @@
 
   {{/* Populate the slice with code and name pairs */}}
   {{ range .Data.Terms.Alphabetical }}
-    {{ $cc := .Name | upper }}
+    {{ $termName := .Name }}
+    {{/*
+      Hugo taxonomy quirk: Countries with exactly 1 location get processed with
+      "country/" prefix (e.g. "country/es"), while countries with 2+ locations
+      appear as simple codes (e.g. "de", "fr"). Strip the prefix to handle both cases.
+    */}}
+    {{ $termName = replace $termName "country/" "" }}
+    {{ $cc := $termName | upper }}
     {{ if index $.Site.Data.countries $cc }}
       {{ $cn := index $.Site.Data.countries $cc "name" }}
       {{ $countries = $countries | append (dict "code" $cc "name" $cn "pages" .Pages) }}
